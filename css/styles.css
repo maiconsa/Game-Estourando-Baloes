@@ -1,0 +1,98 @@
+*{
+    margin:0; padding: 0px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('../imagens/cenario.jpg') ;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+}
+
+/*============  Game Section    ===========*/
+#container{
+    margin: 100px auto;
+    background: rgba(0, 0, 0, 0.1);
+    width:60%;
+    height: 60%;
+    display: table;
+
+  
+  
+}
+
+#box-ball img{
+    padding: 10px;
+}
+
+/*===========   Controls Section   ============*/
+#controls {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+#controls select{
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+   
+}
+
+
+/*========Info Section==========*/
+#info{ 
+    position: fixed;
+   top: 0;
+   margin: 0 auto;
+    padding: 2px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#info div{
+    float: left;
+    padding: 0px 10px 0px 10px;
+
+}
+#info div img{
+    display: block;
+}
+
+#info div   span{
+  display: block;
+  position: relative;
+  top: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+}
+
+/*============Utils==========*/
+.visible{
+    display: inline;
+}
+.invisible{
+    display: none;
+}
+
+.text-red{
+    color: red;
+}
+.text-game-over{
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+
+
+
+
